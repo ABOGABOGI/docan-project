@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
+
+</android.support.v4.widget.DrawerLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="fw.docan.docan.MainActivity"-->
+    <!--tools:layout_editor_absoluteY="81dp">-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:orientation="vertical"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="146dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Selamat datang di Docan!"-->
+                <!--tools:layout_editor_absoluteX="113dp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="146dp"-->
+            <!--android:background="@color/colorPrimaryDark"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/txtSaldoo"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:text="TextView"-->
+                <!--android:textColor="@android:color/background_light"-->
+                <!--android:textSize="36sp"-->
+                <!--tools:layout_editor_absoluteX="117dp"-->
+                <!--tools:layout_editor_absoluteY="72dp" />-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:orientation="vertical">-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnTerima"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="15dp"-->
+                    <!--android:background="@color/colorPrimary"-->
+                    <!--android:text="Terima"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--tools:layout_editor_absoluteX="143dp"-->
+                    <!--tools:layout_editor_absoluteY="231dp" />-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/btnKirim"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@color/colorPrimary"-->
+                    <!--android:text="Kirim"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--tools:layout_editor_absoluteX="143dp"-->
+                    <!--tools:layout_editor_absoluteY="183dp" />-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonAddSaldo"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="4dp"-->
+        <!--android:layout_marginEnd="132dp"-->
+        <!--android:text="+"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/buttonKurangSaldo"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/buttonKurangSaldo"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/buttonKurangSaldo" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonKurangSaldo"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginBottom="177dp"-->
+        <!--android:layout_marginEnd="17dp"-->
+        <!--android:layout_marginStart="135dp"-->
+        <!--android:layout_marginTop="177dp"-->
+        <!--android:text="-"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/editTextToken"-->
+        <!--app:layout_constraintEnd_toStartOf="@+id/buttonAddSaldo"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/buttonLogout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="39dp"-->
+        <!--android:layout_marginEnd="28dp"-->
+        <!--android:text="Logout"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/editTextToken"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="156dp"-->
+        <!--android:layout_marginStart="69dp"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Name"-->
+        <!--android:visibility="invisible"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->

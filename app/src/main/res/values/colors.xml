@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3f51b5</color>-->
+    <!--<color name="colorPrimaryDark">#303f9f</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorPrimary">#c1c9f0</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colordevider">#e5e3e3</color>
+    <color name="text">#4b4c50</color>
+    <color name="text1">#29363b</color>
+    <color name="categoriestext">#000000</color>
+    <color name="white">#fff</color>
+    <color name="whitediv">#a0e8b2</color>
+    <color name="textsub1">#b0aeb4</color>
+    <color name="textsub2">#87848c</color>
+    <color name="green">#69db85</color>
+    <color name="bg_downarrow">#F05982</color>
+    <color name="background">#edf1f4</color>
+    <color name="color1">#F14560</color>
+    <color name="color2">#EB3660</color>
+    <color name="color3">#E21861</color>
+    <color name="viewline">#f1eeee</color>
+    <color name="color_save">#fde9dd</color>
+
+    <color name="textColor">#f3f3f3</color>
+
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#f25170</color>
+    <color name="dividercolour">#00000000</color>
+
+    <color name="medium_text">#7e7e7e</color>
+    <color name="title_color">#000</color>
+    <color name="edit_profile">#5F76BF</color>
+    <color name="navy">#2c5e94</color>
+</resources>

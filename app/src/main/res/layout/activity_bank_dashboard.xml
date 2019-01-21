@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.BankDashboardActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"></include>
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="156dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/bni" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Selamat datang di Docan!"
+                tools:layout_editor_absoluteX="113dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:background="#045572"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtSaldoo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Rp. 25.800.000"
+                android:textColor="@android:color/background_light"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="117dp"
+                tools:layout_editor_absoluteY="72dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSetor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#e74c3c"
+            android:text="Setor Saldo Docan Ke bank"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+        <Button
+            android:id="@+id/btnSetor2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@android:color/holo_orange_light"
+            android:text="SETOR SALDO BANK KE DOCAN"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="143dp"
+            tools:layout_editor_absoluteY="231dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonAddSaldo"
+        android:layout_width="0dp"
+        android:layout_height="4dp"
+        android:layout_marginEnd="132dp"
+        android:text="+"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonKurangSaldo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonKurangSaldo"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKurangSaldo" />
+
+    <Button
+        android:id="@+id/buttonKurangSaldo"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="177dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="177dp"
+        android:text="-"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextToken"
+        app:layout_constraintEnd_toStartOf="@+id/buttonAddSaldo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

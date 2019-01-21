@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Docan</string>
+    <string name="title_activity_home">AktivitasBeranda</string>
+    <string name="title_home">Beranda</string>
+    <string name="title_dashboard">Dasbor</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="title_settings">Pengaturan</string>
+
+    <string name="Rs">Rp.</string>
+    <string name="balance">30,000</string>
+
+    <string name="navigation_drawer_open">Buka navigation drawer</string>
+    <string name="navigation_drawer_close">Tutup navigation drawer</string>
+    <string name="openDrawer">buka_drawer</string>
+    <string name="closeDrawer">tutup_drawer</string>
+
+    <string name="service_name">Contoh CardEmulation</string>
+    <string name="card_title">Contoh Loyalty Card</string>
+    <string name="account_number">Nomor Akun</string>
+    <string name="title_activity_maps">Peta</string>
+
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_search">Pencarian</string>
+    <string name="drawer_open">Buka</string>
+    <string name="drawer_close">Tutup</string>
+
+    <string name="nav_item_home">Beranda</string>
+    <string name="nav_item_friends">Teman</string>
+    <string name="nav_item_notifications">Pesan</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_home</item>
+        <item>@string/title_videos</item>
+        <item>Kupon</item>
+        <item>@string/title_offers</item>
+        <item>@string/title_extraearning</item>
+        <item>@string/title_usemoney</item>
+        <item>@string/title_ranking</item>
+        <item>@string/title_faq</item>
+        <item>@string/title_signout</item>
+
+    </string-array>
+
+
+    <string-array name="nav_drawer_labels1">
+        <item>@string/title_home</item>
+        <item>@string/title_videos</item>
+        <item>@string/title_coupens</item>
+        <item>@string/title_offers</item>
+        <item>@string/title_extraearning</item>
+        <item>@string/title_usemoney</item>
+        <item>@string/title_ranking</item>
+        <item>@string/title_faq</item>
+        <item>@string/title_signout</item>
+
+
+    </string-array>
+
+
+    <string name="title_videos">VIDEO</string>
+    <string name="title_coupens">KUPON</string>
+    <string name="title_offers">PENAWARAN</string>
+    <string name="title_extraearning">PENDAPATAN TAMBAHAN</string>
+    <string name="title_usemoney">PENGGUNAAN UANG</string>
+    <string name="title_ranking">PERINGKAT</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_signout">KELUAR</string>
+
+    <string name="price"><b>450</b></string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Etalase</string>
+    <string name="nav_transactions">Transaksi</string>
+    <string name="nav_products">Produk</string>
+    <string name="nav_stocks">Stok</string>
+    <string name="nav_reports">Laporan</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="nav_about_us">Tentang</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Etalase</item>
+        <item>Transaksi</item>
+        <item>Produk</item>
+        <item>Stok</item>
+        <item>Laporan</item>
+        <item>Pengaturan</item>
+        <item>Tentang</item>
+    </string-array>
+
+    <string name="activity_title_about_us">Tentang Kita</string>
+    <string name="activity_title_privacy_policy">Kebijakan Privasi</string>
+    <string name="action_clear_all">Hapus semua</string>
+    <string name="action_logout">Keluar</string>
+    <string name="action_mark_all_read">Tandai semua yang dibaca</string>
+    <string name="privacy_policy">Aturan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string-array name="Bantuan">
+        <item>Masalah pada tampilan aplikasi</item>
+        <item>Bagaimana cara menggunakan aplikasi DOCAN?</item>
+        <item>Masalah GPS</item>
+        <item>Masalah NFC</item>
+        <item>Masalah Koneksi Internet</item>
+    </string-array>
+
+    <!--CenterActivity-->
+    <string name="Saldo">Saldo</string>
+    <string name="Kirim">KIRIM</string>
+    <string name="Terima">TERIMA</string>
+    <string name="Transaksi">Transaksi</string>
+    <string name="IsiSaldo">Isi Saldo</string>
+    <string name="Bank">Bank</string>
+    <string name="Pembelian">Pembelian</string>
+    <string name="Agen">Agen</string>
+    <string name="Penjual">Penjual</string>
+    <string name="Poin">Poin</string>
+    <string name="Bantuan">Bantuan</string>
+    <string name="Akun">Akun</string>
+    <string name="Selfie">Foto Selfie</string>
+    <string name="KTP">Foto KTP</string>
+
+</resources>
+

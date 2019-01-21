@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.IsiSaldoActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recharge"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:id="@+id/linearA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toTopOf="parent">
+                <!--**********MOBILE*************-->
+
+
+                <LinearLayout
+                    android:id="@+id/linearlokasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/lokasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/location" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center"
+                        android:text="Foto Lokasi"
+                        android:textColor="@color/categoriestext"
+                        android:textSize="18sp"
+
+                        />
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colordevider"
+
+                    ></View>
+
+                <!--**********datacard*************-->
+
+                <LinearLayout
+                    android:id="@+id/lineargps"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/gps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/gps" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center"
+                        android:text="Kirim GPS"
+                        android:textColor="@color/categoriestext"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <!--**********dth*************-->
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider26"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

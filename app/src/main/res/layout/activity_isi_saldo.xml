@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.IsiSaldoActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_height="56dp"></include>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recharge"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--**********MOBILE*************-->
+            <LinearLayout
+                android:id="@+id/linearAgenSaldo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/home_agen" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="23dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="Agen"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons"
+
+                    />
+            </LinearLayout>
+
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"
+
+                ></View>
+
+            <!--**********datacard*************-->
+            <LinearLayout
+                android:id="@+id/linearMobileBanking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/mobile_banking" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="23dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="Mobile Banking"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons" />
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"
+
+                ></View>
+            <!--**********dth*************-->
+
+
+        </LinearLayout>
+
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colordevider"
+
+            ></View>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <!--**********landline*************-->
+            <LinearLayout
+                android:id="@+id/linearKartuDebit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/kartu_debit" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="Kartu Debit"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons" />
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"></View>
+            <!--**********Electricity*************-->
+
+            <LinearLayout
+                android:id="@+id/linearEmoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="23dp"
+                    android:src="@drawable/emoney" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginTop="13dp"
+                    android:gravity="center"
+                    android:text="E-money"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons" />
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"></View>
+
+            <!--**********Gas*************-->
+        </LinearLayout>
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colordevider"
+
+            ></View>
+
+        <LinearLayout
+            android:id="@+id/linearATM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:src="@drawable/atm" />
+
+            <customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="23dp"
+                android:layout_marginTop="13dp"
+                android:gravity="center"
+                android:text="ATM"
+                android:textColor="@color/categoriestext"
+                android:textSize="@dimen/texticons"
+
+                />
+        </LinearLayout>
+
+        <View
+
+            android:id="@+id/view31"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+
+            android:background="@color/colordevider"></View>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

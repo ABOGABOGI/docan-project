@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="#5a5959">
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="Filter Transaksi"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/filter1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView88"
+        android:layout_marginLeft="25dp"
+        android:checked="true"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="KIRIM"
+        android:textColor="@android:color/background_light" />
+
+    <CheckBox
+        android:id="@+id/filter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter1"
+        android:layout_marginLeft="25dp"
+        android:checked="true"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="TERIMA"
+        android:textColor="@android:color/background_light" />
+
+    <CheckBox
+        android:id="@+id/filter3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter2"
+        android:layout_marginLeft="25dp"
+        android:checked="true"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="TRANSAKSI"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter3"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/holo_blue_dark"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text="SET"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

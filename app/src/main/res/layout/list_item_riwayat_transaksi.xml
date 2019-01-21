@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp">
+
+
+
+        <!--<ImageView-->
+        <!--android:layout_width="30dp"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:src="@drawable/bill"/>-->
+
+
+        <ImageView
+            android:id="@+id/iconTransaksi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/received" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <customfonts.MyTextView_Helvatica_Light
+            android:id="@+id/txtJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:maxWidth="200dp"
+            android:text="Internet"
+            android:textColor="@android:color/black" />
+
+        <customfonts.MyTextView_Helvatica_Light
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pembayaran  terakhir - 22-11-2017"
+            android:textSize="11sp"
+            android:id="@+id/txtDateTime"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="15dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <customfonts.MyTextView_Helvatica_Light
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/Rs"
+            android:textColor="@android:color/black"
+            android:id="@+id/textView"/>
+
+        <customfonts.MyTextView_Helvatica_Light
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="2,300"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtAmount"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

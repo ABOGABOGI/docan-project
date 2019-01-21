@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar_point"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.smarteist.autoimageslider.SliderLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_alignParentTop="true"
+                    android:id="@+id/imageSlider"/>
+
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_below="@+id/rv"
+                    android:background="#f3f3f3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#fbffa9"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/view24"
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginTop="15dp"
+                        app:srcCompat="@drawable/icon_tebel" />
+
+                    <View
+                        android:id="@+id/view26"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView61"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:fontFamily="@font/bubblegum_sans"
+                            android:text="Point"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+
+                        <View
+                            android:id="@+id/view25"
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TextView
+                            android:id="@+id/textView72"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/bubblegum_sans"
+                            android:text="100"
+                            android:textColor="@android:color/holo_blue_light"
+                            android:textSize="30sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/divider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_below="@+id/rv"
+                    android:background="#f3f3f3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView73"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:fontFamily="@font/bubblegum_sans"
+                        android:text="Exchange"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_below="@+id/rv"
+                        android:background="#f3f3f3" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/divider23"
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@android:color/background_light" />
+
+                    <LinearLayout
+                        android:id="@+id/linearPulsa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/divider15"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="80dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/pulsa" />
+
+                        <View
+                            android:id="@+id/divider16"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Pulsa"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:id="@+id/divider17"
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"
+                                android:background="@android:color/background_light" />
+
+                            <TextView
+                                android:id="@+id/textView75"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Tukar Poin kamu dengan Pulsa sekarang!" />
+
+                            <View
+                                android:id="@+id/divider19"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@android:color/darker_gray" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider22"
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@android:color/background_light" />
+
+                    <LinearLayout
+                        android:id="@+id/linearPaketData"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/divider15"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="80dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/paketdata" />
+
+                        <View
+                            android:id="@+id/divider16"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Paket Data"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:id="@+id/divider17"
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"
+                                android:background="@android:color/background_light" />
+
+                            <TextView
+                                android:id="@+id/textView75"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Tukar Poin kamu dengan Paket Data sekarang!" />
+
+                            <View
+                                android:id="@+id/divider19"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@android:color/darker_gray" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider20"
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@android:color/background_light" />
+
+                    <LinearLayout
+                        android:id="@+id/linearSaldo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:id="@+id/divider15"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="80dp"
+                            android:layout_height="70dp"
+                            app:srcCompat="@drawable/home_saldo" />
+
+                        <View
+                            android:id="@+id/divider16"
+                            android:layout_width="16dp"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/background_light" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Saldo"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp" />
+
+                            <View
+                                android:id="@+id/divider17"
+                                android:layout_width="match_parent"
+                                android:layout_height="5dp"
+                                android:background="@android:color/background_light" />
+
+                            <TextView
+                                android:id="@+id/textView75"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/bubblegum_sans"
+                                android:text="Tukar Poin kamu dengan Saldo sekarang!" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

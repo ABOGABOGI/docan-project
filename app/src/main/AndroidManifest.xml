@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fw.docan.docan">
+
+    <uses-sdk android:minSdkVersion="23" />
+
+    <!-- Card emulation was introduced in API 19. -->
+    <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
+    <uses-feature
+        android:name="android.hardware.nfc.hce"
+        android:required="true" />
+
+    <!--CAMERA-->
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+
+    <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false"/>
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false"/>
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <!-- adding internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_tipis"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Kirim" />
+        <activity android:name=".Terima">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity android:name=".JualActivity" />
+        <activity android:name=".BeliActivity" />
+        <activity android:name=".BerhasilActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".RiwayatActivity" />
+        <activity android:name=".NotifikasiActivity" />
+        <activity android:name=".AkunActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".CenterActivity"></activity>
+        <activity android:name=".AgenActivity" />
+        <activity android:name=".IsiSaldoActivity" />
+        <activity android:name=".IsiSaldo_Agen"/>
+        <activity android:name=".IsiSaldo_MobileBanking"/>
+        <activity android:name=".IsiSaldo_KartuDebit"/>
+        <activity android:name=".TransaksiActivity" />
+        <activity android:name=".BankActivity" />
+        <activity android:name=".PembayaranActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".BantuanActivity"/>
+        <activity android:name=".Bantuan_1"/>
+        <activity android:name=".Bantuan_2"/>
+        <activity android:name=".Bantuan_3"/>
+        <activity android:name=".Bantuan_4"/>
+        <activity android:name=".Bantuan_5"/>
+        <activity android:name=".ListBantuanActivity"/>
+        <activity android:name=".KebijakanPrivasi"/>
+        <activity android:name=".KetentuanLayanan"/>
+        <activity android:name=".UbahBahasa"/>
+        <activity android:name=".DeviceInfo"/>
+        <activity android:name=".AktivasiActivity"/>
+        <activity android:name=".SelfieActivity"/>
+        <activity android:name=".KTPActivity"/>
+        <activity android:name=".PointActivity"/>
+        <activity android:name=".PaketDataActivity"/>
+        <activity android:name=".TukarSaldoActivity"/>
+        <activity android:name=".JualCashActivity"/>    
+        <activity android:name=".JualSaldoActivity"/>
+        <activity android:name=".ListAgenActivity"/>
+        <activity android:name=".DaftarAgenActivity"/>
+        <activity android:name=".fotolokasi"/>
+        <activity android:name=".kirimgps"/>
+        <activity android:name=".PembelianActivity"/>
+        <activity android:name=".Pembelian_1"/>
+        <activity android:name=".Pembelian_2"/>
+        <activity android:name=".Pembelian_3"/>
+        <activity android:name=".Pembelian_4"/>
+        <activity android:name=".VendorPulsaActivity"/>
+        <activity android:name=".RegisterBank"/>
+        <activity android:name=".BankSetorDocan"/>
+        <activity android:name=".IsiSaldo_ATM"/>
+        <activity android:name=".HomeSeller"/>
+        <activity android:name=".PenjualActivity"/>
+        <!-- BEGIN_INCLUDE(CardEmulationManifest) -->
+        <!-- Service for handling communication with NFC terminal. -->
+        <!-- <service android:name=".cardemulation.CardService" -->
+        <!-- android:exported="true" -->
+        <!-- android:permission="android.permission.BIND_NFC_SERVICE"> -->
+        <!-- &lt;!&ndash; Intent filter indicating that we support card emulation. &ndash;&gt; -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE"/> -->
+        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+        <!-- </intent-filter> -->
+        <!-- &lt;!&ndash; Required XML configuration file, listing the AIDs that we are emulating cards -->
+        <!-- for. This defines what protocols our card emulation service supports. &ndash;&gt; -->
+        <!-- <meta-data android:name="android.nfc.cardemulation.host_apdu_service" -->
+        <!-- android:resource="@xml/aid_list"/> -->
+        <!-- </service> -->
+        <!-- END_INCLUDE(CardEmulationManifest) -->
+
+
+        <!-- BEGIN_INCLUDE(CardEmulationManifest) -->
+        <!-- Service for handling communication with NFC terminal. -->
+        <service
+            android:name=".cardemulation.CardService"
+            android:exported="true"
+            android:permission="android.permission.BIND_NFC_SERVICE">
+
+            <!-- Intent filter indicating that we support card emulation. -->
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <!--
+                 Required XML configuration file, listing the AIDs that we are emulating cards
+                 for. This defines what protocols our card emulation service supports.
+            -->
+            <meta-data
+                android:name="android.nfc.cardemulation.host_apdu_service"
+                android:resource="@xml/aid_list" />
+        </service>
+        <!-- END_INCLUDE(CardEmulationManifest) -->
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyASAn2w-rUwDKrV0eqEqt3W_pPHKt638Vg"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".LoginBankActivity" />
+        <activity android:name=".BankDashboardActivity" />
+        <activity android:name=".BankSetorActivity" />
+        <activity android:name=".BankResultActivity" />
+        <activity android:name=".GasStationActivity" />
+        <activity android:name=".kwitansi.KwitansiActivity" />
+        <activity android:name=".ReceiptActivity" />
+        <activity android:name=".kwitansi.KirimActivity" />
+        <activity android:name=".kwitansi.TerimaActivity" />
+        <activity android:name=".navigation.BaseActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.DeviceList" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name=".StartScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="fw.docan.docan.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+    </application>
+
+</manifest>

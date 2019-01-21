@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="layanan1">
+    WhatsApp Inc. (“WhatsApp,” “our,” “we,” or “us”) provides messaging, Internet calling, and other services to users around the world. Please read our Terms of Service so you understand what’s up with your use of WhatsApp. You agree to our Terms of Service (“Terms”) by installing, accessing, or using our apps, services, features, software, or website (together, “Services”).
+    </string>
+    <string name="layanan2">
+    NO ACCESS TO EMERGENCY SERVICES: There are important differences between WhatsApp and your mobile and fixed-line telephone and SMS services. Our Services do not provide access to emergency services or emergency services providers, including the police, fire departments, or hospitals, or otherwise connect to public safety answering points. You should ensure you can contact your relevant emergency services providers through a mobile, fixed-line telephone, or other service.
+    </string>
+    <string name="layanan3">
+    IF YOU ARE A WHATSAPP USER LOCATED IN THE UNITED STATES OR CANADA, OUR TERMS CONTAIN A BINDING ARBITRATION PROVISION, WHICH STATES THAT, EXCEPT IF YOU OPT OUT AND EXCEPT FOR CERTAIN TYPES OF DISPUTES, WHATSAPP AND YOU AGREE TO RESOLVE ALL DISPUTES THROUGH BINDING INDIVIDUAL ARBITRATION, WHICH MEANS THAT YOU WAIVE ANY RIGHT TO HAVE THOSE DISPUTES DECIDED BY A JUDGE OR JURY, AND THAT YOU WAIVE YOUR RIGHT TO PARTICIPATE IN CLASS ACTIONS, CLASS ARBITRATIONS, OR REPRESENTATIVE ACTIONS. PLEASE READ THE “SPECIAL ARBITRATION PROVISION FOR UNITED STATES OR CANADA USERS” SECTION BELOW TO LEARN MORE.
+    </string>
+</resources>

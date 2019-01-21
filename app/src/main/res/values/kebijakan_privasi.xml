@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="privacy1">
+        Kebijakan Privasi ini (“Kebijakan”) menjelaskan bagaimana Grab Holdings Inc. dan masing-masing anak perusahaannya, perusahaan-perusahaan rekannya, dan entitas-entitas yang dikendalikannya (“Grab Grup”), menggunakan Data Pribadi anda.
+    </string>
+    <string name="privacy2">
+        Pengumpulan Data Pribadi
+    </string>
+    <string name="privacy3">
+        “Data Pribadi” berarti informasi mengenai anda, dimana anda dapat diidentifikasi, termasuk namun tidak terbatas pada nama, kewarganegaraan, alamat, nomor telepon, nomor faks, rincian bank, rincian kartu kredit, jenis kelamin, status kependudukan, latar belakang keuangan, kepentingan pribadi, alamat email, pekerjaan anda, foto anda, informasi tentang anda yang mana telah anda berikan kepada Grab Group dalam formulir pendaftaran, formulir aplikasi atau bentuk serupa lainnya dan/atau informasi tentang anda yang telah atau mungkin dikumpulkan, disimpan, digunakan dan/atau diproses oleh Grab Group dari waktu ke waktu dan termasuk data pribadi yang sensitif seperti nomor kartu identitas anda, nomor SIM, nomor akte kelahiran, nomor paspor, ras, asal etnis, tanggal lahir, status perkawinan, latar belakang pendidikan, dan data yang berkaitan dengan kesehatan, agama atau kepercayaan sejenis lainnya. Jika anda adalah penyedia layanan, kami mungkin juga mengumpulkan data telematika (seperti data laju kecepatan, akselerasi, dan pengereman anda), data perangkat anda (termasuk nomor IMEI dan nama aplikasi yang telah dilekatkan pada perangkat anda) dan data registrasi kendaraan anda.
+    </string>
+    <string name="privacy4">
+        Penyediaan Data Pribadi anda bersifat sukarela. Namun, jika anda tidak memberikan Grab Group Data Pribadi Anda, Grab Group tidak akan dapat memproses Data Pribadi anda untuk Tujuan dan Tujuan Tambahan yang diuraikan di bawah ini, dan dapat menyebabkan Grab Group tidak dapat memberikan layanan-layanan atau produk-produk kepada, atau menerima pembayaran-pembayaran dari anda.
+    </string>
+    <string name="privacy5">
+        Jika anda adalah agen, vendor, pemasok (supplier) atau penyedia layanan, maka, penyediaan Data Pribadi anda adalah wajib, dan kegagalan untuk menyediakan Data Pribadi anda, dapat melanggar undang-undang atau persyaratan peraturan yang berlaku, dan dapat menyebabkan Grab Group untuk tidak dapat menngunakan anda dalam memberikan layanan-layanan atau produk-produk atau melakukan pembayaran-pembayaran kepada anda untuk produk-produk atau layanan-layanan yang akan diberikan.
+    </string>
+
+    <string name="privacy6">
+        Grab Data Protection Officer
+    </string>
+    <string name="privacy7">
+        c/o Grab Holdings Inc.
+        6 Shenton Way,
+        #38-01 OUE Downtown,
+    </string>
+    <string name="privacy8">
+        Singapore 068809
+    </string>
+    <string name="privacy9">
+        Email: dataprotection@grab.com
+    </string>
+
+</resources>

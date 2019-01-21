@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context="fw.docan.docan.NotifikasiActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <TextView
+        android:id="@+id/textViewN1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verifikasi Akun"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp"/>
+
+    <TextView
+        android:id="@+id/textViewN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segera lakukan verifikasi akun pada menu Akun untuk menikmati berbagai kemudahan"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="100dp"/>
+
+    <TextView
+        android:id="@+id/textViewN3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 Februari 2018"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="77dp"/>
+
+    <TextView
+        android:id="@+id/textViewN4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="156dp"/>
+
+    <TextView
+        android:id="@+id/textViewN5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terima kasih telah menggunakan aplikasi kami. Sebagai bentuk terima kasih, kami akan memberikan saldo  5000 rupiah"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="192dp"/>
+
+    <TextView
+        android:id="@+id/textViewN6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="26 Februari 2018"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="156dp"/>
+</android.support.constraint.ConstraintLayout>

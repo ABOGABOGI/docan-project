@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/inet1gb"
+        android:title="Internet 1GB = 100 Point" />
+    <item android:id="@+id/inet3gb"
+        android:title="Internet 3GB = 300 Point" />
+    <item android:id="@+id/inet5gb"
+        android:title="Internet 5GB = 500 Point" />
+    <item android:id="@+id/inet10gb"
+        android:title="Internet 10GB = 1000 Point" />
+</menu>

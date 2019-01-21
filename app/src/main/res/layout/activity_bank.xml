@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.BankActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Bank Anda"
+                    app:layout_constraintBottom_toTopOf="@+id/imageButton"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/divider4"
+                        android:layout_width="18dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/mybank1"
+                        android:layout_width="86dp"
+                        android:layout_height="85dp"
+                        android:background="@android:color/background_light"
+                        android:scaleType="centerInside"
+                        app:srcCompat="@drawable/bni" />
+
+                    <View
+                        android:id="@+id/divider11"
+                        android:layout_width="36dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/mybank2"
+                        android:layout_width="86dp"
+                        android:layout_height="85dp"
+                        android:background="@android:color/background_light"
+                        android:scaleType="centerInside" />
+
+                    <View
+                        android:id="@+id/divider13"
+                        android:layout_width="36dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/mybank3"
+                        android:layout_width="86dp"
+                        android:layout_height="85dp"
+                        android:background="@android:color/background_light"
+                        android:scaleType="centerInside" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:layout_marginStart="16dp"
+                android:text="Sambungkan Rekening Bank Lain"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank1"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/bca" />
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank2"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/mandiri"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.53"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank3"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/bri"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider12"
+                android:layout_width="match_parent"
+                android:layout_height="14dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank4"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/jatim" />
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank5"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/arfindo"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.53"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank6"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/kuningan"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider18"
+                android:layout_width="match_parent"
+                android:layout_height="14dp"
+                tools:layout_editor_absoluteX="386dp"
+                tools:layout_editor_absoluteY="307dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank7"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/mega" />
+
+                <View
+                    android:id="@+id/divider7"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank8"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/sumsel"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.53"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent" />
+
+                <ImageButton
+                    android:id="@+id/bank9"
+                    android:layout_width="86dp"
+                    android:layout_height="85dp"
+                    android:background="@android:color/background_light"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ocbc"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton2"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

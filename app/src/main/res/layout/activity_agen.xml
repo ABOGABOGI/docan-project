@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.IsiSaldoActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recharge"
+        android:layout_marginTop="54dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <!--**********MOBILE*************-->
+            <LinearLayout
+                android:id="@+id/linearListAgen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/home_agen" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="List Agen Terdekat"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons"
+
+                    />
+            </LinearLayout>
+
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"
+
+                ></View>
+
+            <!--**********datacard*************-->
+            <LinearLayout
+                android:id="@+id/linearDaftarAgen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/home_agen" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="Daftar Agen"
+                    android:textColor="@color/categoriestext"
+                    android:textSize="@dimen/texticons" />
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/colordevider"
+
+                ></View>
+            <!--**********dth*************-->
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider21"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ebebeb" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffd650"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="STATUS :"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="AKTIF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider24"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#fbea9b" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="JUMLAH CASH :"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/bubblegum_sans"
+                    android:text="Rp. 100.000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider25"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_weight="1"
+                android:background="#fbea9b" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <!--**********MOBILE*************-->
+                <LinearLayout
+                    android:id="@+id/linearJualCash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#fff833"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/cash" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center"
+                        android:text="Jual CASH"
+                        android:textColor="@color/categoriestext"
+                        android:textSize="@dimen/texticons"
+
+                        />
+                </LinearLayout>
+
+
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#fbea9b"
+
+                    ></View>
+
+                <!--**********datacard*************-->
+                <LinearLayout
+                    android:id="@+id/linearJualSaldo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#fff833"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="44dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="13dp"
+                        android:src="@drawable/home_saldo" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="23dp"
+                        android:layout_marginTop="13dp"
+                        android:gravity="center"
+                        android:text="Jual SALDO"
+                        android:textColor="@color/categoriestext"
+                        android:textSize="@dimen/texticons" />
+                </LinearLayout>
+
+                <View
+
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colordevider"
+
+                    ></View>
+                <!--**********dth*************-->
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

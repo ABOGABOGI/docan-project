@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Docan</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_settings">Settings</string>
+
+    <string name="Rs">Rp.</string>
+    <string name="balance">30,000</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="service_name">CardEmulation Sample</string>
+    <string name="card_title">Sample Loyalty Card</string>
+    <string name="account_number">Account Number</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_home</item>
+        <item>@string/title_videos</item>
+        <item>Kupon</item>
+        <item>@string/title_offers</item>
+        <item>@string/title_extraearning</item>
+        <item>@string/title_usemoney</item>
+        <item>@string/title_ranking</item>
+        <item>@string/title_faq</item>
+        <item>@string/title_signout</item>
+
+    </string-array>
+
+
+    <string-array name="nav_drawer_labels1">
+        <item>@string/title_home</item>
+        <item>@string/title_videos</item>
+        <item>@string/title_coupens</item>
+        <item>@string/title_offers</item>
+        <item>@string/title_extraearning</item>
+        <item>@string/title_usemoney</item>
+        <item>@string/title_ranking</item>
+        <item>@string/title_faq</item>
+        <item>@string/title_signout</item>
+
+
+    </string-array>
+
+
+    <string name="title_videos">VIDEOS</string>
+    <string name="title_coupens">COUPENS</string>
+    <string name="title_offers">OFFERS</string>
+    <string name="title_extraearning">EXTRAEARNING</string>
+    <string name="title_usemoney">USEMONEY</string>
+    <string name="title_ranking">RANKING</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_signout">SIGNOUT</string>
+
+    <string name="price"><b>450</b></string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Storefront</string>
+    <string name="nav_transactions">Transaction</string>
+    <string name="nav_products">Product</string>
+    <string name="nav_stocks">Stock</string>
+    <string name="nav_reports">Report</string>
+    <string name="nav_settings">Setting</string>
+    <string name="nav_about_us">About</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Storefront</item>
+        <item>Transaction</item>
+        <item>Product</item>
+        <item>Stock</item>
+        <item>Report</item>
+        <item>Setting</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Rule</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+
+    <string-array name="Bantuan">
+        <item>Problem in app interface</item>
+        <item>How do i use the DOCAN app?</item>
+        <item>GPS Problem</item>
+        <item>NFC Problem</item>
+        <item>Internet connection problem</item>
+    </string-array>
+
+    <!--CenterActivity-->
+    <string name="Saldo">Balance</string>
+    <string name="Kirim">SEND</string>
+    <string name="Terima">ACCEPT</string>
+    <string name="Transaksi">Transaction</string>
+    <string name="IsiSaldo">Top Up Balance</string>
+    <string name="Bank">Bank</string>
+    <string name="Pembelian">Purchase</string>
+    <string name="Agen">Agent</string>
+    <string name="Penjual">Seller</string>
+    <string name="Poin">Point</string>
+    <string name="Bantuan">Help</string>
+    <string name="Akun">Account</string>
+    <string name="Selfie">Selfie Picture</string>
+    <string name="KTP">ID Card Picture</string>
+
+</resources>
+

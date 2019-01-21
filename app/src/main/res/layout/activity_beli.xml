@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.BeliActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="160dp"/>
+
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="179dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harga"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="227dp"/>
+
+    <TextView
+        android:id="@+id/txtHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="246dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="300dp"/>
+
+    <TextView
+        android:id="@+id/txtKeterangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="319dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="236dp"
+        android:layout_height="51dp"
+        android:text="Pastikan data pembelian benar. Kemudian tempelkan ke perangkat penjual lalu sentuh layar."
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="368dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Penjual"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="99dp"/>
+
+    <TextView
+        android:id="@+id/txtPenjual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="118dp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Transaksi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="48dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="fw.docan.docan.kwitansi.KwitansiActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <include layout="@layout/toolbar"/>
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle4"
+            android:layout_marginTop="30dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/ic_hot_chocolate_cup1"/>
+        </LinearLayout>
+        <customfonts.MyTextView_Roboto_Regular
+            android:id="@+id/txtPenjual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text="Normal purchase"
+            android:textColor="#000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:id="@+id/txtJumlah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="Rp. 10.000"
+                android:textSize="37dp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#b1b1b1"
+            android:layout_marginTop="30dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp">
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_weight="1"
+                android:text="PRODUK"
+
+                android:textColor="#b1b1b1"/>
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="JUMLAH"
+                android:layout_marginLeft="50dp"
+                android:textColor="#b1b1b1"/>
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="12dp"
+                android:gravity="right"
+                android:text="NILAI"
+                android:textColor="#b1b1b1"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerview"
+            android:layout_marginTop="10dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#b1b1b1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL"
+                android:layout_marginLeft="15dp"
+                android:textSize="12dp"
+                android:layout_weight="1"
+                android:textColor="#000"/>
+
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/txtJumlahBawah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp. 10.000"
+                android:textSize="12dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f8f9"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal">
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kwitansi Digital oleh "
+            android:textSize="12dp"
+            android:textColor="#b1b1b1"/>
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="docan.id"
+            android:layout_marginLeft="3dp"
+            android:textSize="12dp"
+            android:textColor="#b1b1b1"/>
+    </LinearLayout>
+</RelativeLayout>

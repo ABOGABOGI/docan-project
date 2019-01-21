@@ -1,0 +1,289 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fw.docan.docan.fragment.HomeFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#fff">
+
+
+
+
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:background="#fff">
+
+
+                    <!-- Cover Image -->
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/banner1" />
+
+
+
+                    <!-- Round image -->
+
+                    <com.alexzh.circleimageview.CircleImageView
+                        android:id="@+id/banar1"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/pro2"
+                        android:layout_marginTop="75dp"
+                        android:layout_gravity="center"
+                        app:view_borderWidth="2dp"
+                        app:view_borderColor="#cccccc" />
+
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#fff">
+
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Ujang Artwork"
+                        android:textColor="@color/title_color"
+                        android:textSize="22dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Bandung, Jawa Barat"
+                        android:textColor="@color/title_color"
+                        android:textSize="14dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="--------"
+                        android:textSize="14dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Jual cinderamata berbagai model"
+                        android:textSize="14dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Asli bandung dibuat oleh pengrajin lokal"
+                        android:textSize="14dp" />
+
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+
+                    android:background="@drawable/rounded"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="TELEPON"
+                    android:textAlignment="center"
+                    android:textColor="@color/edit_profile" />
+
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ACACAC"
+                    android:layout_marginTop="40dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp">
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="256"
+                            android:textColor="@color/title_color"
+                            android:textStyle="bold"
+                            android:textSize="18dp" />
+
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Favorit"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="60dp"
+                        android:background="#ACACAC"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp">
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="2,080"
+                            android:textColor="@color/title_color"
+                            android:textStyle="bold"
+                            android:textSize="18dp" />
+
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Transaksi"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="60dp"
+                        android:background="#ACACAC"/>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp">
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="144"
+                            android:textColor="@color/title_color"
+                            android:textStyle="bold"
+                            android:textSize="18dp" />
+
+                        <customfonts.MyTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Pelanggan"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:background="#ACACAC" />
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<ImageView-->
+
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:src="@drawable/olegimage" />-->
+
+
+
+                    <fw.docan.docan.adapter.ExpandableHeightGridView
+                        android:id="@+id/gridview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+
+
+                        android:horizontalSpacing="-25dp"
+                        android:isScrollContainer="false"
+                        android:numColumns="2"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="3dp" />
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</FrameLayout>
